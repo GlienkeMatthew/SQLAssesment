@@ -28,3 +28,5 @@ WHERE lead.user_id IS NOT NULL --filter to workspaces with  matching lead from t
 AND lead_month = "10/1/2022" --filter to leads created in Oct 2022 with lead.lead_month column
 
 
+/*685 Unique Workspaces have had a lead created in October 2022*/
+
