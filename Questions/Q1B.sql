@@ -11,3 +11,5 @@ WHERE lead.user_id IS NOT NULL --filter to workspaces with matching lead from th
 AND lead_month = "10/1/2022" --filter to leads created in Oct 2022 with lead.lead_month column
 AND paid_conversion_at IS NOT NULL --filter to workspaces that have converted to paid using workspace.paid_conversion_at
 GROUP BY 1
+
+/*25 workspaces that have been converted withour reccuring revenue. 10 workspaces that have been converted with reccuring revenue. For a total of 35.*/
